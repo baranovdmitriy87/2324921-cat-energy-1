@@ -8,14 +8,14 @@
   margin: 0 auto;
 
   @media (min-width: @tablet-width) {
+    width: 768px;
     margin: 0 auto;
     padding: 0 30px;
-    min-width: 768px;
   }
 
   @media (min-width: @desktop-width) {
-    padding: 0 110px;
-    min-width: 1440px;
+    width: 1200px;
+    padding: 0 40px;
   }
 }
 
@@ -144,10 +144,10 @@
 //   }
 // }
 
-@media (min-width: @desktop-width) {
-  .programm__list {
+.programm__list {
+  @media (min-width: @desktop-width) {
     display: grid;
     grid-template-columns: repeat(2, 570px);
-    gap: 80px;
+    gap: 0 80px;
   }
 }
