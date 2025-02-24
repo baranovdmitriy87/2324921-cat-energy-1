@@ -127,7 +127,10 @@ _`.github`, `.editorconfig`, `.gitattributes`, `.gitignore`, `.stylelintrc`, `pa
 
 ---
 
+
 ### Памятка
+
+**Проект работает корректно на Node не выше версии node@16**
 
 #### 1. Зарегистрируйтесь на Гитхабе
 
