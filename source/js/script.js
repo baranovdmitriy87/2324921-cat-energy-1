@@ -1,5 +1,5 @@
-let headerMain = document.querySelector('.main-header');
-let headerToggle = document.querySelector('.main-header__toggle');
+const headerMain = document.querySelector('.main-header');
+const headerToggle = document.querySelector('.main-header__toggle');
 
 headerMain.classList.remove('main-header--nojs');
 

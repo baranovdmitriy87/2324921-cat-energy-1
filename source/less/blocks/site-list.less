@@ -42,6 +42,9 @@
   z-index: 10;
   position: relative;
 
+  display: flex;
+  justify-content: center;
+
   @media (max-width: @mobile-width-only) {
     border-bottom: 1px solid #e6e6e6;
   }
@@ -85,6 +88,23 @@
 .site-list__link {
   min-width: 55px;
   outline-offset: 5px;
+}
+
+.site-list__link-current {
+  position: relative;
+
+  &::after {
+    @media (max-width: @mobile-width-only) {
+      content: "";
+      position: absolute;
+      bottom: 8px;
+      right: 0;
+      left: 0;
+      height: 2px;
+      background-color: @accent-color;
+    }
+  }
+
 }
 
 .site-list__link--bg-index {
