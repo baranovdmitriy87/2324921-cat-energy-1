@@ -8,6 +8,7 @@
     "browser-sync": "2.27.7",
     "csso": "^5.0.5",
     "del": "^6.0.0",
+    "gh-pages": "^6.3.0",
     "gulp": "4.0.2",
     "gulp-htmlmin": "^5.0.1",
     "gulp-less": "5.0.0",
@@ -28,7 +29,8 @@
     "stylelint": "stylelint \"source/less/**/*.less\" --syntax less",
     "lint": "npm run editorconfig && npm run stylelint",
     "build": "gulp build",
-    "start": "npx gulp"
+    "start": "npx gulp",
+    "deploy": "gh-pages -d dist"
   },
   "browserslist": [
     "last 2 versions",
