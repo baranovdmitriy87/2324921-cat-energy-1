@@ -2,6 +2,9 @@
 
 * Студент: [Дмитрий Баранов](https://up.htmlacademy.ru/adaptive-individual/1/user/2324921).
 * Наставник: `Татьяна Симоненко`.
+*  [МАКЕТ](https://www.figma.com/design/GLlcDqnmpzr82PtaPLHcIZ/HTML-2-%2F-%D0%9A%D1%8D%D1%82-%D1%8D%D0%BD%D0%B5%D1%80%D0%B4%D0%B6%D0%B8-(29)?node-id=0-1&p=f&t=tqPdDGNm7GjtknNZ-0)
+* [ОБЗОР ПРОЕКТА](https://baranovdmitriy87.github.io/2324921-cat-energy-1/build/)
+---
 
 
 **Проект работает корректно на Node не выше версии node@16**
